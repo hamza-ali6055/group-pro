@@ -22,12 +22,17 @@ const FeaturedCourses = () => {
 
   return (
     <div className="py-12 bg-gray-900">
-      <div>
+      </div>
 
      <div className="text-center mb-8">...
       </div>
       </div>
 
+          <h1 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h1>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn With the Best</p>
+
+
+      <div className="mt-10">
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course) => (
